@@ -10,3 +10,32 @@ github_username:  stevemoser
 
 # Build settings
 markdown: kramdown
+permalink: /posts/:title.html
+
+relative_links:
+  enabled:     true
+  collections: true
+
+collections:
+  wiki:
+    output: true
+    permalink: /wiki/:path.html
+  
+defaults:
+  - scope:
+      path: ""
+      type: wiki
+    values:
+      layout: page
+      
+# Use the following plug-ins
+gems:
+  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+  - jekyll-relative-links
+
+# Exclude these files from your production _site
+exclude:
+    - Gemfile
+    - Gemfile.lock
+    - LICENSE
+    - README.md

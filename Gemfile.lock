@@ -38,8 +38,6 @@ GEM
       sass (~> 3.2)
     jekyll-watch (1.2.1)
       listen (~> 2.7)
-    jekyll-sitemap (1.2.0)
-    jekyll-relative-links (0.5.2)
     kramdown (1.8.0)
     liquid (2.6.3)
     listen (2.10.1)

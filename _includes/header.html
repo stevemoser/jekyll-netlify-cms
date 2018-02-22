@@ -15,7 +15,7 @@
 
       <div class="trigger">
         <a class="page-link" href="{{ site.url }}/">Blog</a>
-        <a class="page-link" href="{{ site.url }}/wiki/readme">Wiki</a>
+        <a class="page-link" href="{{ site.url }}/wiki/">Wiki</a>
         {% for page in site.pages %}
           {% if page.title %}
           <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>

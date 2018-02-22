@@ -29,9 +29,9 @@ defaults:
       layout: page
       
 # Use the following plug-ins
-#gems:
-#  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
-#  - jekyll-relative-links
+plugins:
+  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+  - jekyll-relative-links
 
 # Exclude these files from your production _site
 exclude:

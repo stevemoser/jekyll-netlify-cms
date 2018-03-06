@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Designing and Developing for iPhone X
 categories: iPhone
+title: "Designing and Developing for iPhone X"
+date: 2017-12-13 9:41
+tags: [iPhone] 
 ---
 
 ![Levvel Branded iPhone](https://cdn.levvel.io/blog_content/Designing%20and%20Developing%20for%20iPhone%20X/Designing%20and%20Developing%20for%20iPhone%20X-c5SzfSJ4vf4uNKJjvDl2mhyK1fMlYpKu.jpeg)
-
-# Designing and Developing for iPhone X
 
 _Note: this post orginally appeared on [Levvel's blog](https://www.levvel.io/our-ideas/Designing-and-Developing-for-iPhone-X)_
 

@@ -66,7 +66,7 @@ Apple's data detector [NSDataDetector][3] combs user text views such as notes an
     example.uk
     example.us
 
-Interestingly enough the data detector is case sensitive. So it looks like if you can't find a traditional TLD you should try to go with `.ly` (the country code TLD for Libya) since NSDataDetector picks up both uppercase and lowercase URL's. One more thing to consider is the TLD keyboard shortcut on iOS. A user can hold down the .com button to quickly fill in .net, .edu, .org, .us, or .com of course. Also remember that all this was tested on the US locale and ymmv on a different locale.
+Interestingly enough the data detector is case sensitive. So it looks like if you can't find a traditional TLD you should try to go with `.ly` (the country code TLD for Libya) since NSDataDetector picks up both uppercase and lowercase URL's. One more thing to consider is the TLD keyboard shortcut on iOS. A user can hold down the .com button to quickly fill in .net, .edu, .org, .us, or .com of course. Also remember that all this was tested on the US locale and YMMV on a different locale.
 
 [1]: http://stackoverflow.com/q/16088329/142358
 [2]: http://data.iana.org/TLD/tlds-alpha-by-domain.txt

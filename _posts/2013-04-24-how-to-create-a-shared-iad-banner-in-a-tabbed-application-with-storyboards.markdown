@@ -2,7 +2,6 @@
 layout: post
 title: "How to Create a Shared iAd banner in a Tabbed Application with Storyboards"
 date: 2013-04-24 20:45
-comments: true
 tags: [iAd,UITabBarController,Storyboards,UIViewControllerContainment]
 ---
 
@@ -12,13 +11,13 @@ To get started it's easiest to start a new project based on Xcode's *Tabbed Appl
 
 Next open up the main storyboard and remove the relationship segue to the first and second view controller and move them to the right to make room for the container view controllers. Then drag out two view controllers and two container view and place each container view inside their respective view controllers. Open the Identity Inspector and select each new view controller and change the class to BannerViewController. The Banner View Controllers now need to be connected to the tab bar so ctrl drag from the Tab Bar Controller scene to each Banner View Controller and select a *relationship* segue.
 
-Now we need to make sure that the container view is the root view of each Banner View Controller. Unless someone knows an easier way I've found it best to drag the container view above the default view in Interface Builder's Document Outline. Finally we can connect each Banner View Controller's container view to their repective first and second view controllers from the orignial template by ctrl dragging from each container view to each first or second view controller and selecting the *embed* segue. We are all done with storyboard though you can add a long text view to each first and second view controller so that you can test the banner view controller to make sure it doesn't occlude it's child view controller.
+Now we need to make sure that the container view is the root view of each Banner View Controller. Unless someone knows an easier way I've found it best to drag the container view above the default view in Interface Builder's Document Outline. Finally we can connect each Banner View Controller's container view to their respective first and second view controllers from the original template by ctrl dragging from each container view to each first or second view controller and selecting the *embed* segue. We are all done with storyboard though you can add a long text view to each first and second view controller so that you can test the banner view controller to make sure it doesn't occlude it's child view controller.
 
 Open up BannerViewController.h and remove the old init method. We don't need this anymore since we are creating the banner view controllers in the storyboard.
 
 	- (instancetype)initWithContentViewController:(UIViewController *)contentController;
 
-Move on to BannerViewController.m and remove the implementation of the previous method. We are almost done but we still how to set the `_contentController` instance variable and add the banner view controller to the BannerViewManager's shared instance since we are not overriding the init method anymore. Instead of implementing a custom init method we have to wait for the storyboard to setup the view controller and then let us finish the initilization by overriding `initWithCoder:` and adding the banner view controller to the BannerViewManager's shared instance.
+Move on to BannerViewController.m and remove the implementation of the previous method. We are almost done but we still how to set the `_contentController` instance variable and add the banner view controller to the BannerViewManager's shared instance since we are not overriding the init method anymore. Instead of implementing a custom init method we have to wait for the storyboard to setup the view controller and then let us finish the initialization by overriding `initWithCoder:` and adding the banner view controller to the BannerViewManager's shared instance.
 
 	- (id)initWithCoder:(NSCoder *)aDecoder
 	{

@@ -1,9 +1,7 @@
 ---
 layout: post
-title: "Designing and Developing for iPhone X"
-date: 2017-12-13 9:41
-comments: true
-tags: [iPhone] 
+title: Designing and Developing for iPhone X
+categories: iPhone
 ---
 
 ![Levvel Branded iPhone](https://cdn.levvel.io/blog_content/Designing%20and%20Developing%20for%20iPhone%20X/Designing%20and%20Developing%20for%20iPhone%20X-c5SzfSJ4vf4uNKJjvDl2mhyK1fMlYpKu.jpeg)
@@ -72,7 +70,7 @@ First, it is a buffer and a reminder for designers and developers to not fill th
 
 In [Casey Neistat’s review of iPhone X](https://youtu.be/-7dTzc8kTOY?t=2m21s) he stated that the DJI app froze on him and because iPhone X has no hardware Home button he wasn’t able to exit the app\. I believe what happened is that the DJI app hid the indicator while in landscape mode\. When Casey was swiping from the bottom of the phone instead of the bottom of the screen orientation \(which is the left side of the screen here\) the indicator became unhidden on the left side of the screen \(which you can see below\)\. Swiping from the left or right edge of the device according to the screen orientation does nothing and thus Casey thought that app was frozen and couldn’t get to the Home screen\. I verified that blocking the main thread doesn’t prevent the swipe\-up\-to\-go\-Home gesture from working by creating a test app\.
 
-![Casey Neistat’s review of iPhone X]](https://cdn.levvel.io/blog_content/Designing%20and%20Developing%20for%20iPhone%20X/Designing%20and%20Developing%20for%20iPhone%20X-jLEBAmtSSLZ7uBcYwpbskg2vkO0cVK7i.png)
+![Casey Neistat’s review of iPhone X](https://cdn.levvel.io/blog_content/Designing%20and%20Developing%20for%20iPhone%20X/Designing%20and%20Developing%20for%20iPhone%20X-jLEBAmtSSLZ7uBcYwpbskg2vkO0cVK7i.png)
 
 ## Face ID
 

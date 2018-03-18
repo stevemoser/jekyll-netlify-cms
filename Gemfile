@@ -25,6 +25,8 @@ group :jekyll_plugins do
   gem 'jekyll-admin'
   gem 'jekyll-default-layout'
   gem 'jekyll-compose'
+  gem "jekyll-paginate"
+  gem "jekyll-category-pages"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

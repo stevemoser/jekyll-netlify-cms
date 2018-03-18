@@ -33,12 +33,16 @@ GEM
       jekyll (~> 3.3)
       sinatra (~> 1.4)
       sinatra-contrib (~> 1.4)
+    jekyll-category-pages (1.0.0)
+      jekyll (~> 3.5)
+      jekyll-paginate (~> 1.1, >= 1.0.0)
     jekyll-compose (0.7.0)
       jekyll (~> 3.0)
     jekyll-default-layout (0.1.4)
       jekyll (~> 3.0)
     jekyll-feed (0.9.3)
       jekyll (~> 3.3)
+    jekyll-paginate (1.1.0)
     jekyll-relative-links (0.5.2)
       jekyll (~> 3.3)
     jekyll-sass-converter (1.5.2)
@@ -99,9 +103,11 @@ PLATFORMS
 DEPENDENCIES
   jekyll (~> 3.7.2)
   jekyll-admin
+  jekyll-category-pages
   jekyll-compose
   jekyll-default-layout
   jekyll-feed (~> 0.6)
+  jekyll-paginate
   jekyll-relative-links
   jekyll-sitemap
   minima (~> 2.0)

@@ -2,10 +2,11 @@
 layout: post
 title: "Is your App at Risk of Getting Kicked out of the App Store?"
 date: 2016-11-02 08:00:00 -0400
-tags: [iOS]
+tags: [iOS, levvel]
+categories: [apple-dev]
 ---
 
-_Note: this post orginally appeared on [Levvel's Blog](https://www.levvel.io/our-ideas/is-your-ios-app-at-risk)_
+_Note: this post originally appeared on [Levvel's Blog](https://www.levvel.io/our-ideas/is-your-ios-app-at-risk)_
 
 While developers are thinking about Swift 3, Xcode 8, and support for iOS 10, app owners are considering whether it is the time to update their years-old iOS apps. Apple has just given app owners a great reason to consider updating their apps, [announcing](https://developer.apple.com/support/app-store-improvements/) that it is “cleaning up” the App Store by removing old apps that haven’t been updated in some time and will thus fail to pass the new app review process. If your app becomes non-compliant, Apple is giving you 30 days to update it. This process has the potential to affect a large number of apps, as [roughly half](https://david-smith.org/blog/2016/09/03/a-sizeable-cleanup/) of the apps in the App Store have not been updated in the last year. This post will walk you through the main points to consider when updating your app for iOS 10.
 

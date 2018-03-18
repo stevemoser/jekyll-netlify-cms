@@ -3,9 +3,10 @@ layout: post
 title: "Falsehoods Programmers Believe About Systems of Measurement"
 date: 2013-08-07 10:15
 tags: [Open Source, UnitsKit] 
+categories: [dev]
 ---
 
-When starting [UnitsKit](https://github.com/stevemoser/UnitsKit) I had many false assumptions about how irregular systems of measurement could be. Even after studying the subject and other existing libraries I was surprised by how many more irregularities I found. So inspired by Patrick McKenzie's post about ['Falsehoods Programmers Believe About Names'](http://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/) I have set out to form a non-complete list of irregulars when working with systems of measurement and converting between them.
+When starting [UnitsKit](https://github.com/stevemoser/UnitsKit) I had many false assumptions about how irregular systems of measurement could be. Even after studying the subject and other existing libraries I was surprised by how many more irregularities I found. Inspired by Patrick McKenzie's post about ['Falsehoods Programmers Believe About Names'](http://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/) I have set out to form a non-complete list of irregulars when working with systems of measurement and converting between them.
 
 1. There is more than one variant of the metric system. (MKS vs CGS)
 2. All base SI units are prefix-less. (The kilogram is the base unit of mass)

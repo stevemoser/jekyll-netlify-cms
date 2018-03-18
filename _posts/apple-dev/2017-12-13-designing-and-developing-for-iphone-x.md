@@ -3,12 +3,13 @@ layout: post
 categories: iPhone
 title: "Designing and Developing for iPhone X"
 date: 2017-12-13 9:41
-tags: [iPhone] 
+tags: [iPhone, levvel]
+categories: [apple-dev]
 ---
 
 ![Levvel Branded iPhone](https://cdn.levvel.io/blog_content/Designing%20and%20Developing%20for%20iPhone%20X/Designing%20and%20Developing%20for%20iPhone%20X-c5SzfSJ4vf4uNKJjvDl2mhyK1fMlYpKu.jpeg)
 
-_Note: this post orginally appeared on [Levvel's blog](https://www.levvel.io/our-ideas/Designing-and-Developing-for-iPhone-X)_
+_Note: this post originally appeared on [Levvel's blog](https://www.levvel.io/our-ideas/Designing-and-Developing-for-iPhone-X)_
 
 The iPhone X is a large departure from previous forms of iPhone devices—one that will be a disruptive force in the digital device marketplace in the months to come\. In order to keep up with the changing space, developers and designers creating 3rd\-party applications for the iPhone X must be able to adapt their applications to the new version’s APIs while still supporting older devices\. One of the best ways to prepare for this is to become well acquainted with the X, including the changes in its screen, gestures, and buttons, and with the updated [iPhone User Guide](http://help.apple.com/iphone/11/#/) to find out where functionality has moved in the new version\. 
 
@@ -82,6 +83,6 @@ Keep in mind that you’ll have to test this on an actual device as this setting
 
 ## In Conclusion
 
-These are just a handful of tips for developing and designing for iPhone X\. For more information check out Apple’s updated [Human Interface Guidelines section for iPhone X](https://developer.apple.com/ios/human-interface-guidelines/overview/iphone-x/) and [Designing for iPhone X video](https://developer.apple.com/videos/play/fall2017/801/).
+These are a handful of tips for developing and designing for iPhone X\. For more information check out Apple’s updated [Human Interface Guidelines section for iPhone X](https://developer.apple.com/ios/human-interface-guidelines/overview/iphone-x/) and [Designing for iPhone X video](https://developer.apple.com/videos/play/fall2017/801/).
 
 

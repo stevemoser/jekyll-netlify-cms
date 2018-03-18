@@ -10,7 +10,8 @@ github_username:  stevemoser
 
 # Build settings
 markdown: kramdown
-permalink: /posts/:title.html
+
+permalink: /posts/:categories/:title.html
 
 relative_links:
   enabled:     true
@@ -32,6 +33,8 @@ defaults:
 plugins:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-relative-links
+  - jekyll-default-layout
+  - jekyll-feed
 
 # Exclude these files from your production _site
 exclude:

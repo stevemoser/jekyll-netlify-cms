@@ -2,10 +2,11 @@
 layout: post
 title: "How to Pick an Apple Friendly TLD"
 date: 2013-04-21 16:35
-tags: [NSDataDetector]
+tags: [apple]
+categories: [web-dev]
 ---
 
-Can't find the .com or .net [top-level domain][4] (TLD) for your website? Thinking about a country code TLD for your site like .io or possibly a domain hack? Great, there are plenty of short url's available for other TLD's besides the traditional .com's and .net's. You can filter by price or how it looks with your particular URL but you should also consider *data detectors*.
+Can't find the .com or .net [top-level domain][4] (TLD) for your website? Thinking about a country code TLD for your site like .io or possibly a domain hack? Great, there are plenty of short URL's available for other TLD's besides the traditional .com's and .net's. You can filter by price or how it looks with your particular URL but you should also consider *data detectors*.
 
 Apple's data detector [NSDataDetector][3] combs user text views such as notes and emails looking for anything from mailing addresses, to email addresses and even tracking numbers for packages. But most importantly for your website it looks for URL's. Now normally it will pick just about any TLD as long as it is prepended with `www.` such as `www.github.io`. However it doesn't pick up all non-prepended TLD's. For example, if you email someone with the text `github.io`, it will not turn that nice shade of blue indicating that it is a tappable link. So which non-prepended TLD's does it pick up? I asked [stackoverflow][1] but no one seemed interested so I ran the names myself with this [text file from ICANN][2].
 

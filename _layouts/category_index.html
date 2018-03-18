@@ -1,4 +1,7 @@
---- layout: default --- {% if page.paginator %}
+---
+layout: default
+---
+{% if page.paginator %}
 
 <!-- Pagination is active -->
 {% assign paginator = page.paginator %} {% if paginator.previous_page != nil or paginator.next_page != nil %}

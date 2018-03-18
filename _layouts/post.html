@@ -6,6 +6,28 @@ layout: default
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
     <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+    <div class="tags">
+        <span class="tag">
+            Category:
+        </span>
+        {% assign sortedCategories = page.categories | sort %}
+        {% for category in sortedCategories %}
+            <span class="tag">
+                <a href="/category/{{ category }}"> {{ category }}</a>
+            </span>
+        {% endfor %}
+    </div>
+    <!-- <div class="tags"> TODO: Fix tag links
+        <span class="tag">
+            Tag:
+        </span>
+        {% assign sortedTags = page.tags | sort %}
+        {% for tag in sortedTags %}
+            <span class="tag">
+                <a href="/tag/{{ tag }}"> {{ tag }}</a>
+            </span>
+        {% endfor %}
+    </div> -->
   </header>
 
   <article class="post-content">

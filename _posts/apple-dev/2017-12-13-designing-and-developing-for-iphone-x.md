@@ -75,14 +75,12 @@ In [Casey Neistat’s review of iPhone X](https://youtu.be/-7dTzc8kTOY?t=2m21s) 
 
 ## Face ID
 
-Finally, three quick notes about Face ID\. First, if you are linking on iOS 11 or later, you will have to add the NSFaceIDUsageDescription usage description key with a description to your Info\.plist if you want to use Face ID\. This is used in place of Touch ID’s localizedReason string\. 
+Finally, three quick notes about Face ID\. First, if you are linking on iOS 11 or later, you will have to add the `NSFaceIDUsageDescription` usage description key with a description to your Info\.plist if you want to use Face ID\. This is used in place of Touch ID’s localizedReason string\. 
 
 The text that goes with it says, “Do you want to allow ‘App Name’ to use Face ID?”\. This alert isn’t so much for privacy’s sake, like access to your photo library, as it is for user preference, like the notifications permission dialog\. Second, you’ll want to test when the user declines or enables this through the Settings app under the Face ID & Passcode section\. 
 
-Keep in mind that you’ll have to test this on an actual device as this setting isn’t available on the simulator\. Third, Face ID behaves a little differently than Touch ID\. For whatever reason when Face ID scans a user’s face your app briefly enters the background and applicationDidEnterBackground is called\. When this finishes, your app becomes active and applicationDidBecomeActive is called\. This can lead to an authentication dialog loop as seen in the Barclay app if an app brings up a biometric authentication dialog during applicationDidBecomeActive\.
+Keep in mind that you’ll have to test this on an actual device as this setting isn’t available on the simulator\. Third, Face ID behaves a little differently than Touch ID\. For whatever reason when Face ID scans a user’s face your app briefly enters the background and `applicationDidEnterBackground` is called\. When this finishes, your app becomes active and `applicationDidBecomeActive` is called\. This can lead to an authentication dialog loop as seen in the Barclay app if an app brings up a biometric authentication dialog during `applicationDidBecomeActive`\.
 
 ## In Conclusion
 
 These are a handful of tips for developing and designing for iPhone X\. For more information check out Apple’s updated [Human Interface Guidelines section for iPhone X](https://developer.apple.com/ios/human-interface-guidelines/overview/iphone-x/) and [Designing for iPhone X video](https://developer.apple.com/videos/play/fall2017/801/).
-
-

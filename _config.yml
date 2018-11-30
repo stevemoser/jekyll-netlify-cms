@@ -2,7 +2,7 @@
 title: Steve Moser
 email: contact@stevemoser.org
 description: > # this means to ignore newlines until "baseurl:"
-  Steve Moser is a Senior Consultant at Levvel.
+  Steve Moser is an iOS Developer and Engineering Lead at Levvel.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://stevemoser.org" # the base hostname & protocol for your site - used for feed.xml
 twitter_username: stevemoser
